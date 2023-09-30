@@ -14,12 +14,12 @@ int main() {
             cout << " ";
         }
 
-        for (int j = i; j <= 2 * i - 1; j++) {
-            cout << j;
+        for (int k = i; k <= 2 * i - 1; k++) {
+            cout << k;
         }
 
-        for (int j = 2 * i - 2; j >= i; j--) {
-            cout << j;
+        for (int l = 2 * i - 2; l >= i; l--) {
+            cout << l;
         }
 
         cout << endl;
@@ -31,12 +31,12 @@ int main() {
             cout << " ";
         }
 
-        for (int j = i; j <= 2 * i - 1; j++) {
-            cout << j;
+        for (int k = i; k <= 2 * i - 1; k++) {
+            cout << k;
         }
 
-        for (int j = 2 * i - 2; j >= i; j--) {
-            cout << j;
+        for (int l = 2 * i - 2; l >= i; l--) {
+            cout << l;
         }
 
         cout << endl;
