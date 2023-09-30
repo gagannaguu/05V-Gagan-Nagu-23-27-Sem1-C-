@@ -33,12 +33,10 @@ int main() {
     if (result == num) {
 
         cout << "= " << num << endl;
-
         cout << num << " is an Armstrong number." << endl;
     } else {
 
         cout << "!= " << num << endl;
-
         cout << num << " is not an Armstrong number." << endl;
     }
 
