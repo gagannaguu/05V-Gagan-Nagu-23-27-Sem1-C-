@@ -20,12 +20,12 @@ void rotateArr(int arr[], int size, int n) {
 int main() {
     int arrSize, num;
 
-    cout << endl << "Enter the length of the array";
+    cout << endl << "Enter the length of the array: ";
     cin >> arrSize;
 
     int arr[arrSize];
 
-    cout << "Enter the elements of the array: " << endl;
+    cout << "Enter the elements of the array " << endl;
     for (int i = 0; i < arrSize; ++i) {
         cout << "Enter the " << i+1 << "th element of array: ";
         cin >> arr[i];
