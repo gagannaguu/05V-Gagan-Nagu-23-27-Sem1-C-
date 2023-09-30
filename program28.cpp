@@ -1,4 +1,4 @@
-
+//Create a program to find the sum of even numbers from 1 to N using a while loop.
 #include <iostream>
 using namespace std;
  
