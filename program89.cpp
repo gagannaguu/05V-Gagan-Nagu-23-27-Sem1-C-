@@ -7,7 +7,7 @@ int main() {
     cout << "Enter number: ";
     cin >> num;
 
-    cout << endl << "The pattern with " << num << "rows is" << endl ;
+    cout << endl << "The pattern with " << num << " rows is" << endl ;
 
     for (int i = 0; i <= num; i++) {
         for (int j = i; j >= 1; j--) {
