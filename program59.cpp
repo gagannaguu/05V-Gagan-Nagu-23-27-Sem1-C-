@@ -40,8 +40,8 @@ int main()
     cout << "|";
     cout << endl;
 
-    int firstLargest = arr[0];  // Initialize to first element of the array
-    int secondLargest = arr[0]; // Initialize to first element of the array
+    int firstLargest = 0;  // Initialize to smallest non zero number
+    int secondLargest = 0; // Initialize to smallest non zero number
 
     // Find the first and second largest numbers
     for (int i = 1; i < size; i++)
