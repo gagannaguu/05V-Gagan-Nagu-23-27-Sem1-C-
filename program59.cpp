@@ -44,7 +44,7 @@ int main()
     int secondLargest = 0; // Initialize to smallest non zero number
 
     // Find the first and second largest numbers
-    for (int i = 1; i < size; i++)
+    for (int i = 0; i < size; i++)
     {
         if (arr[i] > firstLargest)
         {
