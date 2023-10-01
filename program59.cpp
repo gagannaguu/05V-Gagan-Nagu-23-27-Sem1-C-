@@ -19,10 +19,14 @@ int main()
     int arr[size];
 
     // Input elements into the array
-    cout << "Enter elements of the array:" << endl;
+    cout << "Enter elements of the array(>0):" << endl;
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
+        if (arr[i]<=0)
+        {
+            cout << "Invalid number. Please enter a positive integer.";
+            return 1; //Exit with an error code
     }
     // if an array is made of only one element return with an error code
     if (size < 2)
