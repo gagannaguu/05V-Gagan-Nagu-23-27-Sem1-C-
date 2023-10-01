@@ -17,7 +17,8 @@ int main()
     }
 
     // Input elements into the array
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         cout << "Enter element " << i + 1 << ": ";
         cin >> arr[i];
     }
@@ -34,28 +35,35 @@ int main()
     // Initialize an array to store the frequency of each element
     int frequency[n];
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         frequency[i] = -1; // Initialize frequencies to -1
     }
 
     // Calculate the frequency of each element
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         int count = 1;
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
+        for (int j = i + 1; j < n; j++) 
+        {
+            if (arr[i] == arr[j]) 
+            {
                 count++;
                 frequency[j] = 0; // Mark as counted to avoid duplicate counting
             }
         }
-        if (frequency[i] != 0) {
+        if (frequency[i] != 0) 
+        {
             frequency[i] = count;
         }
     }
 
     // Display the frequency of each element
     cout << "Element\tFrequency" << endl;
-    for (int i = 0; i < n; i++) {
-        if (frequency[i] != 0) {
+    for (int i = 0; i < n; i++) 
+    {
+        if (frequency[i] != 0) 
+        {
             cout << arr[i] << "\t" << frequency[i] << endl;
         }
     }
