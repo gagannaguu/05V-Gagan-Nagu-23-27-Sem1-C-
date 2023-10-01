@@ -40,11 +40,11 @@ int main()
     cout << "|";
     cout << endl;
 
-    int firstLargest = 0;  // Initialize to the smallest possible integer
-    int secondLargest = 0; // Initialize to the smallest possible integer
+    int firstLargest = arr[0];  // Initialize to first element of the array
+    int secondLargest = arr[0]; // Initialize to first element of the array
 
     // Find the first and second largest numbers
-    for (int i = 0; i < size; i++)
+    for (int i = 1; i < size; i++)
     {
         if (arr[i] > firstLargest)
         {
