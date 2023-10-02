@@ -11,7 +11,7 @@ if (c =='a'||c=='A'||c=='e'||c=='E'||c=='i'||c=='I'||c=='o'||c=='O'||c=='u'||c==
     cout<<c<< " is a vowel";
 }
 else{ 
-    cout<<c<<" is a constant";
+    cout<<c<<" is a consonant";
 }
 return 0;
 }
