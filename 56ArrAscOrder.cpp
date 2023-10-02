@@ -13,8 +13,8 @@ int main()
   {
     cin >> numbers[i];
   }
-    // int arr[] = { 2, 8, 4, 5, 7 };
- 
+    // eg- int arr[] = { 2, 8, 4, 5, 7 };
+    //using boolalpha and is_sorted to check whether the array is in ascending order and return true or false
     cout << "Is sorted: " << boolalpha <<
     is_sorted(begin(numbers), end(numbers));
  
