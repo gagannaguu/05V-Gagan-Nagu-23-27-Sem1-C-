@@ -15,8 +15,8 @@ int main()
   }
     // int arr[] = { 2, 8, 4, 5, 7 };
  
-    std::cout << "Is sorted: " << std::boolalpha <<
-        std::is_sorted(std::begin(numbers), std::end(numbers));
+    cout << "Is sorted: " << boolalpha <<
+    is_sorted(begin(numbers), end(numbers));
  
     return 0;
 }
