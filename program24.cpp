@@ -1,4 +1,4 @@
-
+//Write a C++ program to check if a number is prime or composite.
 #include <iostream>  
 using namespace std;  
 int main()  
