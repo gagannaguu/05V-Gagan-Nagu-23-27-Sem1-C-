@@ -7,6 +7,7 @@ int main() {
     cout << "Enter row and colum number: " << endl;
     cin >> rows >> col;
 
+    //creating a 2d array and entering elements in it
     int arr[rows][col];
     for(int i = 0; i < rows; i++){
         for(int j = 0; j < col; j++){
@@ -15,6 +16,7 @@ int main() {
         }
         cout << endl;
     }
+    //adding elements of each row in the sum variable
     int sum=0;
     for(int i=0; i < rows; i++) {
         for (int j = 0; j < col; j++) {
