@@ -20,6 +20,7 @@ int main()
             cout << t2 << ", ";
             continue;
         }
+        
         nextTerm = t1 + t2;
         t1 = t2;
         t2 = nextTerm;
