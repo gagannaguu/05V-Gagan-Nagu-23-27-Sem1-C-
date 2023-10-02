@@ -21,9 +21,9 @@ int main() {
     while (tempNum != 0) {
         remainder = tempNum % 10;
         if (tempDigits < 2) {
-            cout << remainder << "^3 + ";
+            cout << remainder << "^" << digits <<" + ";
         } else {
-            cout << remainder << "^3 ";
+            cout << remainder << "^" << digits << " ";
         }
         result += pow(remainder, digits);
         tempNum /= 10;

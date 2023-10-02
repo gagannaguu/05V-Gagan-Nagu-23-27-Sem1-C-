@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     double num1, num2;
-    int choice, toggle = 1;
+    int choice;
 
     cout << "Simple Calculator Menu:" << endl;
     cout << "1. Addition" << endl;
@@ -22,15 +22,15 @@ int main() {
     switch (choice) {
         case 1:
             cout << "Result(" << num1 << " + " << num2 << ") is " << num1 + num2 << endl;
-            toggle = 0;
+
             break;
         case 2:
             cout << "Result(" << num1 << " - " << num2 << ") is " << num1 - num2 << endl;
-            toggle = 0;
+
             break;
         case 3:
             cout << "Result(" << num1 << " X " << num2 << ") is " << num1 * num2 << endl;
-            toggle = 0;
+
             break;
         case 4:
             if (num2 != 0) {
@@ -38,7 +38,7 @@ int main() {
             } else {
                 cout << "Error: Division by zero is not allowed." << endl;
             }
-            toggle = 0;
+
             break;
         case 5:
             if (num2 != 0) {
@@ -46,11 +46,10 @@ int main() {
             } else {
                 cout << "Error: Division by zero is not allowed." << endl;
             }
-            toggle = 0;
+
             break;
         default:
             cout << "Invalid choice! Please enter 1, 2, 3, or 4." << endl;
-            toggle = 1;
             break;
     }
 

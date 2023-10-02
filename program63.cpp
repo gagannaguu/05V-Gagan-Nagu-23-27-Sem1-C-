@@ -23,7 +23,7 @@ int main() {
             sort(arr, arr + size);
             int kthSmallest = arr[k - 1];
             cout << "The " << k << "th smallest element is: " << kthSmallest <<  endl;
-            toggle = 0;
+
 
         } else {
             cout << "Invalid value of K(K should be between 1 and " << size << ")" <<  endl;
