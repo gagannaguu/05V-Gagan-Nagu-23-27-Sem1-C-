@@ -10,9 +10,6 @@ int fact(int n)
     }
     //multiply n with n-1 value recursively till n > 0
     return n * fact(n-1);
-
-    // return n == 0 ? 1 : n * fact(n-1);
-
 }
 
 int main()
