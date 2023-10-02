@@ -13,6 +13,7 @@ int main()
    cout<<"\nEnter any string :: ";
    getline (cin,characters) ; // using getline function to include all types of input and allow whitespaces
 
+   //loop for counting all characters inside the string and finding its length
    for(i=0; characters[i]; i++)
    {
         count++;
