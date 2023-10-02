@@ -11,7 +11,7 @@ int main()
    string characters; 
 
    cout<<"\nEnter any string :: ";
-   getline (cin,characters) ; // using getline function to include all types of input
+   getline (cin,characters) ; // using getline function to include all types of input and allow whitespaces
 
    for(i=0; characters[i]; i++)
    {
