@@ -20,7 +20,6 @@ int main ()
         if (j == k)
         {
             B[k] = A[i];
-            cout<<"annn";
             k++;
         }
     }
