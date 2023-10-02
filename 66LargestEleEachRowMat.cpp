@@ -9,6 +9,7 @@ int main(){
     cout<<"Enter the number of rows and columns :";
     cin>> r >> c;
 
+    //creating and adding elements in a 2d array
     int a[r][c];
 
     cout<<"\nEnter the elements of matrix :";
@@ -19,6 +20,7 @@ int main(){
          cin>>a[i][j];
     }
 cout<<"The largest elements from each row are: "<<endl;
+    //checking for the largest element in each row and updating the value of maxi variable to store largest value in it
     for(int i=0; i<r; i++){
 
         int maxi = INT_MIN;
