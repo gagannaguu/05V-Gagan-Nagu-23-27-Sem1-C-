@@ -10,13 +10,13 @@ int main()
 
     cout << "Fibonacci Series: ";
 
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 0; i <= n; ++i) {
         // Prints the first two terms.
-        if(i == 1) {
+        if(i == 0) {
             cout << t1 << ", ";
             continue;
         }
-        if(i == 2) {
+        if(i == 1) {
             cout << t2 << ", ";
             continue;
         }
