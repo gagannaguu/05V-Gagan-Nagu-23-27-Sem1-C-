@@ -1,3 +1,4 @@
+//program to calculate power of a number using loop
 #include <iostream>
  
 using namespace std;
