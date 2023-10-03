@@ -1,3 +1,4 @@
+//program to check whether a string is palindrome or not
 // including required header files
 #include <iostream>
 #include <string>
