@@ -1,3 +1,4 @@
+//program to assign questions randomly to members of a group
 // inlcuding required header files
 #include <iostream>
 #include <vector>
