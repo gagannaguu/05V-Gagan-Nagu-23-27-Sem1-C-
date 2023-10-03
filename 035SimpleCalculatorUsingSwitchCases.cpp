@@ -1,3 +1,4 @@
+//program to implement a simple calculator using switch case
 // inlcuding required header files
 #include <iostream>
 using namespace std;
