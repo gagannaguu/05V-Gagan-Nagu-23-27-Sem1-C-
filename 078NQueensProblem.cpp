@@ -1,3 +1,4 @@
+//program to solve N Queens problem
 // including required header files
 #include <iostream>
 #include <cmath>
