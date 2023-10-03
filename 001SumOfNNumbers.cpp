@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-    int n ,sum =0  ;
+    int n, sum = 0;
     cout << "enter a number";
-    cin>>n;
-    
-    for (int i = 1; i <= n; i++)//Loop from 1 to 'n
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) // Loop from 1 to 'n
     {
-        sum += i;//Add 'i' to 'sum' in each iteration
+        sum += i; // Add 'i' to 'sum' in each iteration
     }
-    cout<<" = "<<sum<<endl;
+    cout << " = " << sum << endl;
 }
