@@ -1,3 +1,4 @@
+//program to reverse a string without reverse function
 // including required header files
 #include <iostream>
 #include <string>
