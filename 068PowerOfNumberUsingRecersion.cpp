@@ -1,3 +1,4 @@
+//program to find power of a number using recursion
 // including required header files
 #include <iostream>
 using namespace std;
