@@ -1,11 +1,15 @@
+// including required header files
 #include <iostream>
 using namespace std;
-int main() {
 
+// main function
+int main() {
+    // input number of rows
     int n;
     cout << "Enter the number of lines: ";
     cin >> n;
 
+    // printting patterns
     cout << endl << "The pattern with " << n << " rows is" << endl << endl ;
 
     for (int i = 0; i < n; i++){

@@ -1,8 +1,7 @@
+// including required header files
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-
-
 
 using namespace std;
 
@@ -26,8 +25,8 @@ int main() {
         if (userChoice == computerChoice) {
             cout << "It's a tie!" << endl;
         } else if ((userChoice == 1 && computerChoice == 3) || 
-                   (userChoice == 2 && computerChoice == 1) || 
-                   (userChoice == 3 && computerChoice == 2)) {
+                    (userChoice == 2 && computerChoice == 1) || 
+                    (userChoice == 3 && computerChoice == 2)) {
             cout << "You win!" << endl;
             userScore++;
         } else {
