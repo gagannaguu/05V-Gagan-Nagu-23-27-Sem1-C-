@@ -1,3 +1,4 @@
+//program to print a pyramid pattern
 // including required header files
 #include <iostream>
 using namespace std;
