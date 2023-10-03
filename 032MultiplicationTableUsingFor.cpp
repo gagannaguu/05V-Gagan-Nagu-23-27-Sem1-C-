@@ -1,3 +1,4 @@
+//program to print multiplication table
 // inlcuding required header files
 #include <iostream>
 using namespace std;
