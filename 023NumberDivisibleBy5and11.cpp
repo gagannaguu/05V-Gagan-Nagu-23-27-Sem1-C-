@@ -1,3 +1,4 @@
+//program to check whether a given number is divisible by 5 and 11
 // inlcuding requied header files
 #include <iostream>
 using namespace std;
