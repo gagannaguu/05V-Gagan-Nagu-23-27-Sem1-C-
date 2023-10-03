@@ -9,7 +9,6 @@ int main()
     cout << "Enter the size of the array: ";
     cin >> size;
 
-
     if (size <= 0)
     {
         cout << "Invalid array size. Please enter a positive integer." << endl;
@@ -23,10 +22,11 @@ int main()
     for (int i = 0; i < size; i++)
     {
         cin >> arr[i];
-        if (arr[i]<=0)
+        if (arr[i] <= 0)
         {
-            cout << "Invalid number. Please enter a positive integer.";
-            return 1; //Exit with an error code
+            cout << "Invalid number. Enter a positive integer.";
+            return 1; // Exit with an error code
+        }
     }
     // if an array is made of only one element return with an error code
     if (size < 2)
@@ -44,8 +44,8 @@ int main()
     cout << "|";
     cout << endl;
 
-    int firstLargest = 0;  // Initialize to smallest non zero number
-    int secondLargest = 0; // Initialize to smallest non zero number
+    int firstLargest = 0;  // Initialize to the smallest possible integer
+    int secondLargest = 0; // Initialize to the smallest possible integer
 
     // Find the first and second largest numbers
     for (int i = 0; i < size; i++)
