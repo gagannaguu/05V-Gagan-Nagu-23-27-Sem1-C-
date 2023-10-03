@@ -1,3 +1,4 @@
+//program to find shortest path in a maze
 // including required header files
 #include <iostream>
 using namespace std;
