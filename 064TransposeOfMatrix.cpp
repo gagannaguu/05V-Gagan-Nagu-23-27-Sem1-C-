@@ -1,3 +1,4 @@
+//program to find transpose of a matrix
 // inlcuding required header files
 #include <iostream>
 using namespace std;
