@@ -1,3 +1,4 @@
+//program to find Kth smallest element of the array
 // inlcuding required header files
 #include <iostream>
 using namespace std;
