@@ -1,3 +1,4 @@
+//program to find addition of 2 matrix
 // inlcuding required header files
 #include <iostream>
 using namespace std;
