@@ -1,3 +1,4 @@
+//program to find gcd of two numbers
 // inlcuding required header files
 #include <iostream>
 
