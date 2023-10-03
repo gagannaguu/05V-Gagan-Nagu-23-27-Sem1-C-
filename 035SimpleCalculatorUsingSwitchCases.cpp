@@ -15,7 +15,7 @@ int main() {
     cout << "2. Subtraction" << endl;
     cout << "3. Multiplication" << endl;
     cout << "4. Division" << endl;
-    cout << "5. Rember" << endl;
+    cout << "5. Modulus" << endl;
     cout << "Enter your choice (1/2/3/4/5): ";
     cin >> choice;
 
@@ -55,7 +55,7 @@ int main() {
 
             break;
         default:
-            cout << "Invalid choice! Please enter 1, 2, 3, or 4." << endl;
+            cout << "Invalid choice! Please enter 1, 2, 3, 4 or 5." << endl;
             break;
     }
 
