@@ -1,3 +1,4 @@
+//program to concatenate two strings without using strcat function
 // including required header files
 #include <iostream>
 using namespace std;
