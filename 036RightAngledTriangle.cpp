@@ -1,3 +1,4 @@
+//program to print right angled triangle star pattern
 // including required header files
 #include <iostream>
 using namespace std;
