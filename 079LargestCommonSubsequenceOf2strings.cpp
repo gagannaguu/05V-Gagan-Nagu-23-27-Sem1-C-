@@ -1,3 +1,4 @@
+//program to find and display longest common subsequence of string
 // including required header files
 #include <iostream>
 using namespace std;
