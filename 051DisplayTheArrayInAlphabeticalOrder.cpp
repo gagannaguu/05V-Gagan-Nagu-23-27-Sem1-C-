@@ -1,3 +1,4 @@
+//program to display array in alphabetical order
 // inlcuding requried header files
 #include <iostream>
 #include <string>
