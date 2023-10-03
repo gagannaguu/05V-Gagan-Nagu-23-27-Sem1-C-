@@ -1,3 +1,4 @@
+//program to simulate game of rock paper scissors
 // including required header files
 #include <iostream>
 #include <cstdlib>
