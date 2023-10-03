@@ -1,3 +1,4 @@
+//program to find sum of the series 1-1/2+1/3
 // including required header files
 #include <iostream>
 #include <iomanip>
