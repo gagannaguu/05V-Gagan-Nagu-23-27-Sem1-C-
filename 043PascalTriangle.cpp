@@ -1,3 +1,4 @@
+//program to print a pascal triangle
 // inlcuding requried header files
 #include <iostream>
 using namespace std;
