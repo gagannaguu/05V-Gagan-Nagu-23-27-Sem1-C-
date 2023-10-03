@@ -34,7 +34,16 @@ int main()
     }
 
     // calling the funciton to calculate and display fibonacci series of a number
-    cout << "The fibonacci of " << num << " is " << fib(num) << endl;
+    cout << "Fibonacci Series: ";
+    for (int i = 0; i <= num; ++i) {
+        if (i < num) {
+            cout << fib(i) << ", ";
+        }
+        else {
+            cout << fib(i) << " ";
+        }
+    }
+    cout << endl;
 
     return 0;
 }
