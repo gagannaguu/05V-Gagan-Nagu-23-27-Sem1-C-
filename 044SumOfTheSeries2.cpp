@@ -1,3 +1,4 @@
+//program to find sum of series 1/1!+2/2!...
 // inlcuding requried header files
 #include <iostream>
 using namespace std;
