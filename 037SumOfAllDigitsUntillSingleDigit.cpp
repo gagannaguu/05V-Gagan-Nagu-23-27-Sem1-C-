@@ -1,3 +1,4 @@
+//program to find the sum of digits of a number until it becomes a single-digit number.
 // including required header files
 #include <iostream>
 using namespace std;
