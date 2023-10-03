@@ -1,3 +1,4 @@
+//function to find square and cube of a number using functions
 // including required header files
 #include <iostream>
 using namespace std;
