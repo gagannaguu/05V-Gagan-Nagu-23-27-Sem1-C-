@@ -1,3 +1,4 @@
+//program to check whether a number is palindrome or not
 // including required header files
 #include <iostream>
 using namespace std;
