@@ -1,3 +1,4 @@
+//program to rotate an array left by N position
 // including the required the header file
 #include <iostream>
 using namespace std;
