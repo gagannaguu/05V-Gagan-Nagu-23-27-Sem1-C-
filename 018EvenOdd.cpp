@@ -1,3 +1,4 @@
+//program to check whether a given number is odd or even
 // including required header files
 #include <iostream>
 using namespace std;
