@@ -1,3 +1,4 @@
+//sum of N natural numbers using while loop
 // including header files
 #include <iostream>
 using namespace std;
