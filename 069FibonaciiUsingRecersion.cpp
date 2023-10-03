@@ -3,25 +3,31 @@
 using namespace std;
 
 // function to find fibonacii
-int fib(int n) {
+int fib(int n)
+{
 
-    if(n == 0) {
+    if (n == 0)
+    {
         return 0;
-    } else if (n == 1) { 
+    }
+    else if (n == 1)
+    {
         return 1;
     }
 
-    return fib(n-1) + fib(n-2);
+    return fib(n - 1) + fib(n - 2);
 }
 
 // main function
-int main() {
+int main()
+{
     // input a number from user
     int num;
     cout << "Enter number (for which you wanna find fibonacci of): ";
     cin >> num;
 
-    while (num < 0) {
+    while (num < 0)
+    {
         cout << "Invalid number, fibonacci of " << num << "can't be found (Fibonacci is not defined for nagitive numbers)" << endl;
         cout << "Enter number (for which you wanna find fibonacci of): ";
         cin >> num;
