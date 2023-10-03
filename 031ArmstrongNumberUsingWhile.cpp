@@ -1,3 +1,4 @@
+//armstrong number using while loop
 // inlcuding required header files
 #include <iostream>
 using namespace std;
