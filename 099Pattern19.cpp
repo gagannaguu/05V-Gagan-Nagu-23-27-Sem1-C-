@@ -14,7 +14,7 @@ int main() {
     // pritting pattern
     cout << endl << "The pattern with " << num << " rows is" << endl << endl ;
 
-    displayChar = char(int('A') + num - 1);
+    displayChar = char('A') + num - 1;
 
     for (int i = num; i > 0; i--) {
         for (int j = 1; j <= i; j++) {
