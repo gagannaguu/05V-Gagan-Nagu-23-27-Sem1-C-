@@ -26,10 +26,6 @@ int main() {
     } else {
         cout << "\"" << input << "\" is not a palindrome." <<endl;
     }
-
     
-
-    
-
     return 0;
 }
